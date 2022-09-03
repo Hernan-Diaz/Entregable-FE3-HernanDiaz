@@ -9,7 +9,7 @@ export default function Listado({addItem}) {
           <Item 
             key={item.id}
             name={item.producto.name}
-            description={item.producto.descripcion}
+            description={item.producto.description}
             stock={item.stock}
             addItem={addItem}
           />
